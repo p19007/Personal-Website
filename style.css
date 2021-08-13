@@ -1,0 +1,58 @@
+body {
+  background-color:#00ffcc;
+}
+
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: indigo;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkred;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkred;
+}
+
+#myName {
+  font-size: 50px;
+  color: darkblue;
+  font-weight: 900;
+  font-family: Style Script, cursive;
+}
+
+ul{
+  list-style-type: none;
+  background-color: slategrey;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;;
+}
+
+li a{
+  padding: 14px, 16px;
+  display: inline- block;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
